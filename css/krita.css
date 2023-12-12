@@ -1,0 +1,78 @@
+body{
+	background-image: linear-gradient(skyblue,aliceblue);
+	text-decoration:none;
+}
+
+
+
+ul{
+	font-family: 'Pacifico' , cursive;
+	background-color:aliceblue;
+	text-align: center;
+	text-decoration:none;
+	
+}
+
+ul li{
+	display:inline-block;
+	position:relative;
+	text-decoration:none;
+}
+
+ul li a{
+	display:block;
+	padding:20px 25px;
+	font-size: 16px;
+	color:skyblue;
+	text-align: center;
+	text-decoration:none;
+}
+
+ul li ul.dropdown li{
+	display:block;
+	background:aliceblue;
+	margin:2px 0px;
+	text-decoration:none;
+
+}
+
+ul li ul.dropdown {
+	width:auto;
+	background: transparent;
+	position:absolute;
+	display:none;
+	text-decoration:none;
+	
+}
+ul li a:hover{
+	background:blue;
+	
+}
+ul li:hover ul.dropdown{
+	display:block;
+	
+}
+h1{
+	font-family:'Rubik Bubbles';
+	color:aliceblue;
+	font-size:100px;
+	text-align: center;
+}
+
+.images{
+	display:flex;
+	flex-wrap:nowrap;
+	margin-right:auto;
+	margin-left:auto;
+	flex-basis:50%;
+
+	
+}
+
+.column{
+	flex:50%;
+}
+
+.column img {
+	vertical-align: middle;
+}
